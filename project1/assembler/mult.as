@@ -5,7 +5,7 @@
         lw      0       6       count
         lw      0       7       amo
         noop
-loop    beq     4       7       dos
+loop    beq     4       7       done
         nor     1       3       6
         add     1       1       1
         beq     0       1       right

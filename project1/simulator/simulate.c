@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
             " executed.\nFinal state of machine: \n", i + 1);
             state.pc++;
             printState(&state);
-            exit(1);
+            exit(0);
         }
         else if (opcode==0){
             state.reg[offset] = state.reg[reg0] + state.reg[reg1];
